@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157748931-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-157748931-1');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cigdem Coskuner</title>
@@ -26,7 +35,7 @@
                     <h1>Hello, <br>I'm <span class="myName">Cigdem</span></h1>
                       
                     <p>A committed, passionate Full-Stack Web Developer and Engineer<span class="city">based in San Francisco.</span></p>
-                    <p class="btn">Click <a class="action-btn" href="#">Here</a> to see my resume.</p>
+                    <p class="btn">Click <a class="action-btn" href="Cigdem-Coskuner-Resume.pdf" target="blank">Here</a> to see my resume.</p>
                    <p class="chevron"><a  href="#one"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-14 arrow-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg></a></p>   
                 </div>
             </section>
@@ -34,9 +43,9 @@
                 <div class="about-content" id="one">
                     <br>
                     <h1>About me</h1>
-                    <p>I am an Industrial Engineer with a minor in Computer Engineering from Turkey. I am capable of integrating computer programming knowledge into the problems occurring in a production area. 
-                     <br><br>Besides Industrial Engineering subjects, I like coding, watching tutorials, learning new languages and technologies. I see all challenges in programming as opportunities to constantly improve my abilities to think outside the box and to solve problems as a puzzle.  Therefore, I decided to dive deeper into coding and develop my Web Development skills. During this time, I’ve taken some Udemy online courses, read many articles and watched a lot of YouTube videos. <br><br>
-                    I always want to learn more and practice them into existence because the best way to learn, especially for programmers, is to create projects. That’s why I did a bunch of projects that are user-friendly websites, and apps.<br>You can check them on my <a class="action-btn" href="#three">portfolio</a>. </p>
+                    <p>I am an Industrial Engineer with a minor in Computer Engineering graduated from Hacettepe University, Turkey. I am capable of integrating computer programming knowledge into the problems occurring in a production area.
+                     <br><br>Besides Industrial Engineering subjects, I like coding, also learning new languages, skills and technologies. I see programming challenges as opportunities to continuously improve my abilities of creative thinking and problem solving. Therefore, I decided to dive deeper into coding and further improve my web development skills. For this purpose, I have taken Udemy courses in addition to studying the online content available.<br><br>
+                    I am always eager to learn more and apply my knowledge to produce actual outputs.  Accordingly, I created various projects including but not limited to user-friendly websites and apps.<br>You can find them in the <a class="action-btn" href="#three">portfolio</a> section. </p>
                      
                 </div>
             </section>
@@ -105,7 +114,7 @@
                             </div>
                             <div class="project1-exp mb ml">
                                 <h5>Let's Travel</h5>
-                               <p>With the help of Admin Page, if you pass authorization, you can add new posts to the home page and update or delete them. When a user leaves a phone number to the home page, a callback-request appears on the Callback Requests section, or messages from users are automatically added to the Mails section on the Admin Page. When you click on the Details button, you see an interactive map showing the location of a landmark on the Home Page.
+                               <p>You can register as a member, and add/modify/remove posts through a user/admin panel. Visitors can leave callback requests and messages, and these can be managed in respective “callback-request” and “mails” sections in the admin panel. It also utilizes interactive maps showing the locations of the landmarks in relevant pages.
                                 <br><span>HTML5, CSS3, Bootstrap 4, Express-Node.js, MongoDB.</span> </p>
                                 <div class="buttons">
                                     <a class="visit btn" href="https://lets--travel.herokuapp.com/" target="_blank"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="eye" class="eye-icon svg-inline--fa fa-eye fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M288 144a110.94 110.94 0 0 0-31.24 5 55.4 55.4 0 0 1 7.24 27 56 56 0 0 1-56 56 55.4 55.4 0 0 1-27-7.24A111.71 111.71 0 1 0 288 144zm284.52 97.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400c-98.65 0-189.09-55-237.93-144C98.91 167 189.34 112 288 112s189.09 55 237.93 144C477.1 345 386.66 400 288 400z"></path></svg>Visit</a>
@@ -120,7 +129,7 @@
                             </div>
                             <div class="project2-exp mb ml">
                                 <h5>Face Recognition</h5>
-                                <p>After sign-in, when you upload a photo, this app will fetch a demographics model API and return information about age, gender, and multicultural appearance of detected face based on facial characteristics.
+                                <p>After registering and signing in, this app fetches a demographics model API and returns information about age, gender, and multicultural appearance based on facial characteristics in the image you upload.
                                   <br> <span>ReactJS, Express-Node.js, PostgreSQL, CSS3, Tachyons.</span> 
                                      </p>
                                 <div class="buttons">
@@ -135,9 +144,7 @@
                             </div>
                            <div class="project3-exp mb ml">
                                 <h5>Balloon Game</h5>
-                              <p>The goal of the game is to pop 100 balloons. If you let a balloon reach the top, the game ends and you lose. 
-                                  The tempo at which the balloons are released increases after every 10 balloons are released. 
-                                  Balloons do not have the same speed. At the bottom of the page, there is a tab that keeps track of how many balloons the player has popped. 
+                              <p>The goal is to pop all 100 balloons before they can reach to the top, otherwise you lose. Speed of the generated balloons increase in every 10 seconds. Balloons have non-uniform speed. The game also counts the number of balloons you popped.
                                   <br><span>HTML5, CSS3, JavaScript</span>.</p>
                                  
                             <div class="buttons">
@@ -152,7 +159,7 @@
                         </div>
                        <div class="project4-exp mb ml">
                             <h5>CNN Clone</h5>
-                          <p> This is a clone of the CNN website. All unique blocks were built, and only the repeating ones were skipped. More specifically, the menu, main blocks of the middle section, and the footer were created. This website was built to show how to play around with advanced CSS properties.
+                          <p> A clone of the cnn.com. All unique blocks were built and only the repeating ones were omitted. Emphasis was given to main framework including header, footer, and the middle block. Aim of the project was to demonstrate advanced CSS skills.
                            <br> <span>HTML5, CSS3, Bootstrap 4,</span> a bit of <span>JavaScript.</span> 
                              </p>
                         <div class="buttons">
@@ -167,7 +174,7 @@
                   </div>
                   <div class="project5-exp mb ml">
                     <h5>RoboFriends</h5>
-                  <p>It is a React app that pulls robot users dynamically by using fetch API, and you can filter these users by name through the response from the API.
+                  <p>A React app that pulls robot users dynamically by using fetch API. These robots can be filtered by name in real time through the response from the API.
                    <br> <span>HTML5, CSS3, ReactJS/Redux.</span>  </p>
                   <div class="buttons">
                     <a class="visit btn" href="https://cigdemcos.github.io/robofriends/" target="_blank"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="eye" class="eye-icon svg-inline--fa fa-eye fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M288 144a110.94 110.94 0 0 0-31.24 5 55.4 55.4 0 0 1 7.24 27 56 56 0 0 1-56 56 55.4 55.4 0 0 1-27-7.24A111.71 111.71 0 1 0 288 144zm284.52 97.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400c-98.65 0-189.09-55-237.93-144C98.91 167 189.34 112 288 112s189.09 55 237.93 144C477.1 345 386.66 400 288 400z"></path></svg>Visit</a>
